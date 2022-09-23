@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "概率与随机过程",
+    "section": "",
+    "text": "概率与随机过程 (Caumel 2011) 是 Springer Texts in Statistics 系列 和 Statistique et probabilités appliquées 系列 的一本教材. 原版为法语. 因其内容精炼, 每章配有 习题 + 解答. 因此十分适合自学. 本项目, 即是我的自学笔记. 它发布在 GitHub 上.\n本书的优点:\n\n它是 (法国) 大学教材, 因此适合系统性学习\n每以章有习题, 有答案, 因此适合自学\n\n缺点:\n\n前后章节内容联系紧密, 因此不适合碎片化学习.\n\n\n\n\n\nCaumel, Yves. 2011. Probabilités et processus stochastiques. Statistique et probabilités appliquées. Paris Berlin Heidelberg [etc.]: Springer."
+  },
+  {
+    "objectID": "000-presentation.html",
+    "href": "000-presentation.html",
+    "title": "简介",
+    "section": "",
+    "text": "这本书面向的受众是\n\n法国高等教育 数学专业 L2, L3, 以及 M1 (即, 大学 第二年, 第三年, 或 硕士第一年)\n工程师 (工科院校学生)\n其他有随机系统建模需求的学生.\n\n掌握本书中的概念, 有助于以上群体将其应用在诸如: 信号处理、自动化、网络理论、运筹学、生物科学和经济学等不同领域。"
+  },
+  {
+    "objectID": "000-presentation.html#内容安排",
+    "href": "000-presentation.html#内容安排",
+    "title": "简介",
+    "section": "内容安排",
+    "text": "内容安排\n本书作者考虑到教学时常的限制, 因此避免了一些冗长的证明. 其中一些有教学意义的证明 被作为习题 (有答案).\n这本教材共有 11 章: 前10章为理论 (每章附有针对本章内容的习题 (有答案)), 第11章为 综合本书所有知识的练习 (有答案).\n\nChap 1: 可数空间的概率\nChap 2, Chap 3: 随机变量 和 随机向量\nChap 4: 概率分布的各种计算\nChap 5: 概率论中的收敛问题\nChap 6: 条件概率 以及其在 可靠性理论 与 信息论中的应用\nChap 7, Chap 8: 离散马尔可夫链, 柏松过程 与 更新过程 (Renewal process)\nChap 9: 连续实践马尔可夫链, 与其应用:\n\n出生-死亡过程 (Birth-death process)\n排队论 (Queuing theory)\n\n\n\n习题\n本书包含约 150 个练习和问题 (大部分有答案). 它们覆盖了整个课程内容. 并且对其中的许多练习和问题都是面向应用的. 它们的难度等级划分如下:\n\n⭐️: 书本内容的直接应用\n⭐️⭐️: 需要彻底理解书本内容\n⭐️⭐️⭐️: 需要灵活的应用和实践能力."
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Caumel, Yves. 2011. Probabilités et processus\nstochastiques. Statistique et probabilités\nappliquées. Paris Berlin Heidelberg [etc.]:\nSpringer."
+  }
+]
