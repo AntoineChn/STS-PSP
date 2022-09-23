@@ -1,0 +1,12 @@
+# 前言 {.unnumbered}
+
+概率与随机过程 [@caumelProbabilitesProcessusStochastiques2011] 是 [Springer Texts in Statistics 系列](https://www.springer.com/series/5538) 和 [Statistique et probabilités appliquées 系列](https://editions.lavoisier.fr/collection-statistique-et-probabilites-appliquees.asp) 的一本教材. 原版为法语. 因其内容精炼, 每章配有 习题 + 解答. 因此十分适合自学. 本项目, 即是我的自学笔记. 它发布在 GitHub 上.
+
+本书的优点:
+
+-   它是 (法国) 大学教材, 因此适合系统性学习
+-   每以章有习题, 有答案, 因此适合自学
+
+缺点:
+
+-   前后章节内容联系紧密, 因此不适合碎片化学习.

@@ -1,0 +1,152 @@
+project:
+  type: book
+
+lang: en
+book:
+  title: "概率与随机过程"
+  author: "AntoineChn"
+  date: "23 Sept. 2022"
+  search: true
+  page-footer: 
+    left: "Copyright 2022, AntoineChn"
+    right: 
+      - icon: github
+        href: https://antoinechn.github.io/STS-PSP/
+  site-url: https://antoinechn.github.io/STS-PSP/
+  repo-url: https://github.com/AntoineChn/STS-PSP/
+  repo-branch: main
+  repo-actions: [edit]
+  callout-appearance: simple
+  sidebar:
+    collapse-level: 2
+    pinned: true
+  # downloads: [pdf, epub]
+  # sharing: [twitter, facebook]
+  chapters:
+    - index.qmd
+    - 000-presentation.qmd
+    - part: 010-Chap01-有限集的概率.qmd
+      chapters:
+        - 011-随机系统与概率空间.qmd
+        - 012-随机实践的独立性.qmd
+        # - 013-Événements-équiprobables-dans-le-cas-où-Ω-est-fini.qmd
+        # - 014-Corrigés-des-exercices.qmd
+    # - part: 020-Chap02-Variables-aléatoires.qmd
+    #   chapters:
+    #     - 021-Notion-de-variable-aléatoire.qmd
+    #     - 022-Variables-aléatoires-discrètes.qmd
+    #     - 023-Variables-aléatoires-absolument-continues.qmd
+    #     - 024-Variables-gaussiennes.qmd
+    #     - 025-Corrigés-des-exercices.qmd
+    # - part: 030-Chap03-Vecteurs-aléatoires.qmd
+    #   chapters:
+    #     - 031-Un-exemple.qmd
+    #     - 032-Description-des-vecteurs-aléatoires.qmd
+    #     - 033-Indépendance-et-corrélation.qmd
+    #     - 034-Fonctions-génératrice-et-caractéristique.qmd
+    #     - 035-Le-vecteur-gaussien.qmd
+    #     - 036-Corrigesé-des-exercices.qmd
+    # - part: 040-Chap04-Calcul-de-lois.qmd
+    #   chapters:
+    #     - 041-Approche-du-problème-sur-deux-exemples.qmd
+    #     - 042-Méthodes-classiques.qmd
+    #     - 043-Méthodes-de-simulation-des-lois-de-probabilité.qmd
+    #     - 044-Quelques-densitesé-classiques.qmd
+    #     - 045-Corrigés-des-exercices.qmd
+    # - part: 050-Chap05-Convergences-et-limites-des-suites-aléatoires.qmd
+    #   chapters:
+    #     - 051-Convergence-en-probabilité.qmd
+    #     - 052-Convergence-en-loi.qmd
+    #     - 053-Théorèmes-aux-limites.qmd
+    #     - 054-Convergence-presque-sûre.qmd
+    #     - 055-Convergence-enmoyenne-quadratique.qmd
+    #     - 056-Corrigesé-des-exercices.qmd
+    # - part: 060-Chap06-Probabilités-lois-et-espérances-conditionnelles.qmd
+    #   chapters:
+    #     - 061-Conditionnement-d_événements.qmd
+    #     - 062-Lois-conditionnelles.qmd
+    #     - 063-Espérance-conditionnelle.qmd
+    #     - 064-Variance-conditionnelle.qmd
+    #     - 065-Loi-et-espérance-conditionnelle-des-vecteurs-gaussiens.qmd
+    #     - 066-Notions-d_entropie-et-d_information.qmd
+    #     - 067-Retour-sur-la-notion-de-hasard.qmd
+    #     - 068-Corrigés-des-exercices.qmd
+    # - part: 070-Chap07-Chaînes-de-Markov-discrètes.qmd
+    #   chapters:
+    #     - 071-Introduction-aux-processus-aléatoires.qmd
+    #     - 072-Définition-et-caractérisation-des-chaînes-de-Markov-discrètes.qmd
+    #     - 073-Classification-des-états.qmd
+    #     - 074-Distributions-stationnaires-et-distributions-limites.qmd
+    #     - 075-Compléments.qmd
+    #     - 076-Corrigés-des-exercices.qmd
+    # - part: 080-Chap08-Processus-de-Poisson-et-de-renouvellement.qmd
+    #   chapters:
+    #     - 081-Processus-de-Poisson-homogène.qmd
+    #     - 082-Processus-de-Poisson-spatiaux.qmd
+    #     - 083-Processus-de-Poisson-homogènes-composés.qmd
+    #     - 084-Processus-de-renouvellement.qmd
+    #     - 085-Corrigés-des-exercices.qmd
+    # - part: 090-Chap09-Chaînes-de-Markov-à-temps-continu-et-files-d_attente.qmd
+    #   chapters:
+    #     - 091-Chaînes-de-Markov-à-temps-continu.qmd
+    #     - 092-Processus-de-naissance-et-demort.qmd
+    #     - 093-Files-d_attente.qmd
+    #     - 094-Corrigés-des-exercices.qmd
+    # - part: 100-Chap1-Processus-du-second-ordre.qmd
+    #   chapters:
+    #     - 101-Généralités.qmd
+    #     - 102-Processus-stationnaires-du-second-ordre.qmd
+    #     - 103-Propriétés-spectrales-des-processus-SSL.qmd
+    #     - 104-Processus-gaussiens-stationnaires.qmd
+    #     - 105-Processus-ergodiques.qmd
+    #     - 106-Processus-de-Wiener-ou-brownien-et-bruit-blanc.qmd
+    #     - 107-Histoire-de-la-modélisation-du-mouvement-brownien.qmd
+    #     - 108-Corrigés-des-exercices.qmd
+    # - part: 110-Chap11-Problèmes.qmd
+    #   chapters:
+    #     - 111-Énoncés-des-problèmes.qmd
+    #     - 112-Corrigés-des-problèmes.qmd
+    # - Annexes.qmd
+    # - Index.qmd
+    # - summary.qmd
+    - references.qmd
+
+crossref:
+  # appendix-title: "附录"
+  # appendix-delim: ":"
+  def-title: "Def"
+  thm-title: "Thm"
+  exr-title: "习题"
+  exm-title: "例"
+
+bibliography: references.bib
+
+# comments:
+#   giscus: 
+#     repo: AntoineChn/STS-PSP
+
+format:
+  html:
+    toc-depth: 3
+    theme: Cosmo
+    # theme: 
+    #   light: flatly
+    #   dark: darkly
+    css: style.css
+    code-link: true
+    code-copy: true
+    # mainfont: "LXGW WenKai"
+    
+  # pdf:
+  #   documentclass: scrreprt
+  #   CJKmainfont: "LXGW WenKai"
+    # include-in-header: 
+    #   text: |
+    #     \usepackage{makeidx}
+    #     \makeindex
+    # include-after-body: 
+    #   text: |
+    #     \printindex
+
+editor: source
+
